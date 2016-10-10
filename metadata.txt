@@ -10,7 +10,7 @@
 name=RNC Loader
 qgisMinimumVersion=2.0
 description=Lists Raster Nautical Charts by title.
-version=0.1
+version=0.2
 author=Roland Arsenault
 email=roland@rolker.net
 
