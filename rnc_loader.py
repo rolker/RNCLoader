@@ -193,7 +193,7 @@ class RNCLoader:
             self.dlg, "Select base directory ", self.dlg.rncRootLabel.text())
         self.dlg.rncRootLabel.setText(filename)
         QSettings().setValue('RNCLoader/rnc_root', filename)
-        self.scanCharts(rootdir)
+        self.scanCharts(filename)
 
     def scanCharts(self, rootdir):
         bsbs = glob.glob(os.path.join(rootdir, '*/*.BSB'))
