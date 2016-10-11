@@ -10,12 +10,10 @@
 name=RNC Loader
 qgisMinimumVersion=2.0
 description=Lists Raster Nautical Charts by title.
-version=0.2
+version=0.2.1
 author=Roland Arsenault
 email=roland@rolker.net
-
 about=Finds raster nautical charts in a root directory, such as BSB_ROOT, and lists them by title.
-
 tracker=https://github.com/rolker/RNCLoader/issues
 repository=https://github.com/rolker/RNCLoader
 # End of mandatory metadata
